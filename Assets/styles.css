@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0%;
+    font-family: arial, sans-serif;
+    background-color: #f7f5ef;
+    color: #ff3300;
+    }
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #17394d;
+    padding: 20px 10px;
+
+}
+
+.logo {
+    color: #ff3300;
+    font-size: 25px;
+    font-weight: bold;
+}
+ nav a {
+    color: #ff3300;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 18px;
+}
+.hero {
+    min-height: 400px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtSFThjHUcc5GcTznCMLTbPsH12Oyo83K1PAmySyW33ssmYe5eX2vGNtxh&s=10");
+    background-size: cover;          
+    background-position: center;  
+    display: flex;
+    align-items: center;
+    padding: 60px 40px;
+    color: #ffffff;
+
+
+}
+.hero h1 {
+    font-size: 50px;
+}
+
+.hero p {
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+.hero button {
+    background-color: #51ff00;
+    border: none;
+    padding: 14px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.destinations {
+    background-color: #f7f5ef;
+    padding: 40px 20px;
+    color: #333;
+}
+
+.destinations-container {
+    display: flex;             /* Places child divs side-by-side in columns */
+    flex-direction: row;       /* Ensures layout goes left-to-right (horizontal) */
+    justify-content: space-between;
+    gap: 25px;                 /* Space between columns */
+    padding: 50px 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Individual Column Card Theme */
+.column {
+    flex: 1;                   /* Forces equal width across left, center, and right columns */
+    background-color: #ffffff;  /* Card base background */
+    padding: 30px 22px;
+    border-radius: 12px;
+    border: 2px solid #e2ded4; /* Soft initial border */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    transition: all 0.35s ease;/* Smooth animation for background & border on hover */
+    cursor: pointer;
+}
+
+/* --- Interactive Hover Effects & Background Theme Switch --- */
+.column:hover {
+    background-color: #17394d;  /* Switches card background to navy on hover */
+    border-color: #ff3300;      /* Adds an eye-catching orange border on hover */
+    transform: translateY(-8px);/* Slightly lifts the hovered card */
+    box-shadow: 0 12px 25px rgba(23, 57, 77, 0.25);
+}
+
+/* Headings inside Columns */
+.column h2 {
+    color: #17394d;
+    font-size: 22px;
+    margin-top: 0;
+    margin-bottom: 12px;
+    transition: color 0.35s ease;
+}
+
+.column:hover h2 {
+    color: #ff3300; /* Headings turn vibrant orange when column is hovered */
+}
+
+/* Paragraphs inside Columns */
+.column p {
+    color: #555555;
+    font-size: 15px;
+    line-height: 1.6;
+    margin: 0;
+    transition: color 0.35s ease;
+}
+
+.column:hover p {
+    color: #ffffff; /* Paragraph turns crisp white on hover over dark background */
+}
+
+/* contact styles */
+ .hero-contact {
+    background-color: #173d2A;
+    Color: white;
+    text-align: center;
+    padding: 45px 20px;
+
+}
+.hero-contact h1 {
+    font-size: 36px;
+    
+}
+.hero-contact p {
+    font-size: 16px;
+  
+} .container {
+    display: flex;
+    gap: 40px;
+    padding: 50px;
+}
+.left, .right {
+    background-color: #ccffcc;
+    padding: 20px;
+    flex: 1;
+}
+
+label {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 8px;
+
+  
+    }
+    
+    
